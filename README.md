@@ -1,0 +1,3 @@
+# Unnecessary Re-renders in React useEffect Hook
+
+This repository demonstrates a common React bug involving the `useEffect` hook causing unnecessary re-renders.  The provided solution demonstrates how to optimize useEffect to prevent this issue.  The original code causes excessive re-renders and console logs, leading to performance problems. The solution optimizes the effect by checking for changes in a dependency and preventing unnecessary execution.
